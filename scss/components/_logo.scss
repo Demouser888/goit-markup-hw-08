@@ -1,0 +1,34 @@
+.logo {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;  
+    letter-spacing: 0.03em;
+    color:var(--accent-color);
+
+    @media screen and(min-width: 768px) {
+      padding-top: 21px;
+      padding-bottom: 21px;
+      margin-right: 81px;
+    }
+
+    @media screen and(min-width: 1200px){
+      font-size: 26px;
+      line-height: 1.19;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 94px;
+  }
+  }
+
+  .logo__word {
+    color: var(--primary-color);
+  }
+
+  .logo__word--white {
+    color: var(--primary-white-color);
+  }
+  

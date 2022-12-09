@@ -14,7 +14,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-        }
+    }
+
   @media screen and(min-width: 1200px) {
           justify-content: center;
         }
@@ -29,19 +30,17 @@
    text-align: left;
   }
   }
-  
-    
+   
  
 .peculiarity__item {
   flex-basis: calc(100% / 1 - 0*30px);
 
   @media screen and(min-width: 768px){
-    flex-basis: calc(100% / 2 - 1*30px);
+  flex-basis: calc((100% - 30px) / 2 );
   }
   @media screen and(min-width: 1200px){
-    flex-basis: calc(100% / 4 - 3*30px);
-  
-  }
+    flex-basis: calc((100% - 90px) / 4 );
+      }
 
   
 }
